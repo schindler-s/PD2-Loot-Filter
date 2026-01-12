@@ -12,7 +12,7 @@ ItemDisplayFilterName[11]: ÿc1Extreme ÿc4Strictness ÿc7w/ ÿc;Juice ÿc7& ÿc.Flawl
 ItemDisplayFilterName[12]: ÿc1Extreme ÿc4Strictness ÿc7w/ ÿc;Juice
 
 //------------------------------FILTER_VERSION_ON_CUBE------------------------------
-ItemDisplay[box]: %MAP-51%Horadric Cube %RED%(Jan/10th/26){%LIGHT_GRAY%removed magic exc chests and quivers from extra - kassahi%CL%added new luxe filter - Mark%CL%%GREEN%Kassahi - HiimMark%CL%%WHITE%Season 12 Build # 175}
+ItemDisplay[box]: %MAP-51%Horadric Cube %RED%(Jan/12th/26){%LIGHT_GRAY%removed magic exc chests and quivers from extra - kassahi%CL%added new luxe filter - Mark%CL%%GREEN%Kassahi - HiimMark%CL%%WHITE%Season 12 Build # 176}
 
 
 
@@ -2162,77 +2162,91 @@ ItemDisplay[FILTLVL~5-12 SET !ID]:
 
 // Magic/Rare Jewels and Charms
 ItemDisplay[RARE !ID jew]: %DOT-20%%MAP-21%%BORDER-6D%%SOUNDID-4714%%SAGE%•••%YELLOW%•••%WHITE%••   %NAME%   %WHITE%••%YELLOW%•••%SAGE%•••
-ItemDisplay[MAG !ID jew ILVL>84]: %PX-20%%DOT-21%%MAP-9B%%PURPLE%•%WHITE%•  %NAME%  %WHITE%•%PURPLE%•
+ItemDisplay[ILVL>84 MAG !ID jew]: %PX-20%%DOT-21%%MAP-9B%%PURPLE%•%WHITE%•  %NAME%  %WHITE%•%PURPLE%•
 ItemDisplay[MAG !ID jew]: %PX-20%%DOT-21%%MAP-97%%PURPLE%•  %NAME%  %PURPLE%•
-ItemDisplay[MAG !ID (cm1 OR cm3) ILVL>89]: %PX-20%%DOT-21%%MAP-9B%%PURPLE%•%WHITE%•  %NAME%  %WHITE%•%PURPLE%•
+ItemDisplay[ILVL>89 MAG !ID (cm1 OR cm3)]: %PX-20%%DOT-21%%MAP-9B%%PURPLE%•%WHITE%•  %NAME%  %WHITE%•%PURPLE%•
 ItemDisplay[MAG !ID (cm1 OR cm3)]: %PX-20%%DOT-21%%MAP-97%%PURPLE%•%WHITE%•  %NAME%  %WHITE%•%PURPLE%•
-ItemDisplay[MAG !ID cm2 ILVL>89]: %PX-20%%DOT-9B%%WHITE%· %NAME% %WHITE%·
+ItemDisplay[ILVL>89 MAG !ID cm2]: %PX-20%%DOT-9B%%WHITE%· %NAME% %WHITE%·
 ItemDisplay[FILTLVL~1-4 MAG !ID cm2]: %PX-9B%%DOT-97%%PURPLE%· %NAME% %PURPLE%·
 ItemDisplay[FILTLVL~1-8 MAG !ID cm2]: %PURPLE%· %NAME% %PURPLE%·
 // Magic/Rare Rings and Amulets
-ItemDisplay[RARE !ID amu ILVL>89]: %DOT-20%%MAP-21%%BORDER-6D%%SOUNDID-4716%%SAGE%••%YELLOW%••%WHITE%•   %NAME%   %WHITE%•%YELLOW%••%SAGE%••
+ItemDisplay[ILVL>89 RARE !ID amu]: %DOT-20%%MAP-21%%BORDER-6D%%SOUNDID-4716%%SAGE%••%YELLOW%••%WHITE%•   %NAME%   %WHITE%•%YELLOW%••%SAGE%••
 ItemDisplay[RARE !ID (amu OR rin)]: %PX-20%%DOT-21%%MAP-6D%%SAGE%•%YELLOW%•%WHITE%•   %NAME%   %WHITE%•%YELLOW%•%SAGE%•
 ItemDisplay[CLVL<19 MAG !ID (amu OR rin)]: %DOT-97%%NAME%
 ItemDisplay[DIFF<3 CLVL<85 (MAPID>0 MAPID<133) MAG !ID rin]: %NAME%
-ItemDisplay[FILTLVL~1-8 MAG !ID amu ILVL>59]: %WHITE%· %NAME% %WHITE%·
+ItemDisplay[FILTLVL~1-8 ILVL>59 MAG !ID amu]: %WHITE%· %NAME% %WHITE%·
 // Magic/Rare Circlets
 ItemDisplay[RARE !ID CIRC]: %DOT-20%%MAP-21%%BORDER-6D%%SOUNDID-4716%%SAGE%••%YELLOW%••%WHITE%•   %NAME%   %WHITE%•%YELLOW%••%SAGE%••
-ItemDisplay[FILTLVL~1-8 MAG !ID (ci2 OR ci3)]: %PX-20%%DOT-97%%BLUE%·%WHITE%·  %NAME%  %WHITE%·%BLUE%·
-ItemDisplay[FILTLVL~1-4 MAG !ID (ci0 OR ci1)]: %PX-9B%%DOT-97%%PURPLE%· %NAME% %PURPLE%·
+ItemDisplay[MAG !ID (ci2 OR ci3)]: %PX-20%%DOT-97%%BLUE%·%WHITE%·  %NAME%  %WHITE%·%BLUE%·
+ItemDisplay[MAG !ID (ci0 OR ci1)]: %PX-9B%%DOT-97%%PURPLE%· %NAME% %PURPLE%·
 
 // Magic/Rare Druid
-ItemDisplay[RARE !ID ETH DRUID (lax OR 9la OR 7la OR gax OR 9ga OR 7ga OR scy OR 9s8 OR 7s8 OR wsc OR 9wc OR 7wc)]: %DOT-62%%MAP-21%%BORDER-6D%%RED%•%ORANGE%•  %NAME%  %ORANGE%•%RED%•
-ItemDisplay[RARE !ID !ETH DRUID (lax OR 9la OR 7la OR gax OR 9ga OR 7ga OR scy OR 9s8 OR 7s8 OR wsc OR 9wc OR 7wc)]: %PX-62%%DOT-21%%MAP-6D%%RED%• %NAME% %RED%•
+ItemDisplay[ILVL>84 RARE !ID ETH DRUID (lax OR 9la OR 7la OR gax OR 9ga OR 7ga OR scy OR 9s8 OR 7s8 OR wsc OR 9wc OR 7wc)]: %DOT-62%%MAP-21%%BORDER-6D%%RED%•%ORANGE%•  %NAME%  %ORANGE%•%RED%•
+ItemDisplay[ILVL>84 RARE !ID !ETH DRUID (lax OR 9la OR 7la OR gax OR 9ga OR 7ga OR scy OR 9s8 OR 7s8 OR wsc OR 9wc OR 7wc)]: %PX-62%%DOT-21%%MAP-6D%%RED%• %NAME% %RED%•
 ItemDisplay[MAG !ID ETH DRUID (lax OR 9la OR 7la OR gax OR 9ga OR 7ga OR scy OR 9s8 OR 7s8 OR wsc OR 9wc OR 7wc)]: %PX-60%%DOT-21%%MAP-97%%ORANGE%• %NAME% %ORANGE%•
+ItemDisplay[FILTLVL~1-8 RARE !ID ETH DRUID (lax OR 9la OR 7la OR gax OR 9ga OR 7ga OR scy OR 9s8 OR 7s8 OR wsc OR 9wc OR 7wc)]: %DOT-62%%MAP-21%%BORDER-6D%%RED%·%ORANGE%·  %NAME%  %ORANGE%·%RED%·
+ItemDisplay[FILTLVL~1-8 RARE !ID !ETH DRUID (lax OR 9la OR 7la OR gax OR 9ga OR 7ga OR scy OR 9s8 OR 7s8 OR wsc OR 9wc OR 7wc)]: %PX-62%%DOT-21%%MAP-6D%%RED%· %NAME% %RED%·
 ItemDisplay[FILTLVL~1-4 RARE !ID DRUID (CLUB OR DRU)]: %DOT-6D%%NAME%
 ItemDisplay[FILTLVL~1-4 MAG !ID DRUID (CLUB OR DRU)]: %DOT-97%%NAME%
 // Magic/Rare Barbarian
-ItemDisplay[RARE !ID ETH BARBARIAN (ssp OR 9s9 OR 7s7 OR glv OR 9gl OR 7gl OR tsp OR 9ts OR 7ts)]: %DOT-62%%MAP-21%%BORDER-6D%%RED%•%ORANGE%•  %NAME%  %ORANGE%•%RED%•
-ItemDisplay[RARE !ID !ETH BARBARIAN (ssp OR 9s9 OR 7s7 OR glv OR 9gl OR 7gl OR tsp OR 9ts OR 7ts)]: %PX-62%%DOT-21%%MAP-6D%%RED%• %NAME% %RED%•
+ItemDisplay[ILVL>84 RARE !ID ETH BARBARIAN (ssp OR 9s9 OR 7s7 OR glv OR 9gl OR 7gl OR tsp OR 9ts OR 7ts)]: %DOT-62%%MAP-21%%BORDER-6D%%RED%•%ORANGE%•  %NAME%  %ORANGE%•%RED%•
+ItemDisplay[ILVL>84 RARE !ID !ETH BARBARIAN (ssp OR 9s9 OR 7s7 OR glv OR 9gl OR 7gl OR tsp OR 9ts OR 7ts)]: %PX-62%%DOT-21%%MAP-6D%%RED%• %NAME% %RED%•
 ItemDisplay[MAG !ID ETH BARBARIAN (ssp OR 9s9 OR 7s7 OR glv OR 9gl OR 7gl OR tsp OR 9ts OR 7ts)]: %PX-60%%DOT-21%%MAP-97%%ORANGE%• %NAME% %ORANGE%•
-ItemDisplay[RARE !ID BARBARIAN BAR]: %DOT-20%%MAP-21%%BORDER-6D%%SAGE%•%WHITE%•  %NAME%  %WHITE%•%SAGE%•
+ItemDisplay[ILVL>84 RARE !ID BARBARIAN BAR]: %DOT-20%%MAP-21%%BORDER-6D%%SAGE%•%WHITE%•  %NAME%  %WHITE%•%SAGE%•
 ItemDisplay[MAG !ID ETH BARBARIAN BAR]: %PX-60%%DOT-21%%MAP-97%%NAME% %ORANGE%•
-ItemDisplay[DIFF<3 CLVL<85 (MAPID>0 MAPID<133) MAG !ID BARBARIAN THROWING !(am5 OR ama OR amf)]: %DOT-97%%NAME%
+ItemDisplay[FILTLVL~1-8 RARE !ID ETH BARBARIAN (ssp OR 9s9 OR 7s7 OR glv OR 9gl OR 7gl OR tsp OR 9ts OR 7ts)]: %DOT-62%%MAP-21%%BORDER-6D%%RED%·%ORANGE%·  %NAME%  %ORANGE%·%RED%·
+ItemDisplay[FILTLVL~1-8 RARE !ID !ETH BARBARIAN (ssp OR 9s9 OR 7s7 OR glv OR 9gl OR 7gl OR tsp OR 9ts OR 7ts)]: %PX-62%%DOT-21%%MAP-6D%%RED%· %NAME% %RED%·
+ItemDisplay[FILTLVL~1-8 RARE !ID BARBARIAN BAR]: %DOT-20%%MAP-21%%BORDER-6D%%SAGE%·%WHITE%·  %NAME%  %WHITE%·%SAGE%·
 ItemDisplay[FILTLVL~1-4 RARE !ID BARBARIAN (BAR OR THROWING) !(am5 OR ama OR amf)]: %DOT-6D%%NAME%
 ItemDisplay[FILTLVL~1-4 MAG !ID BARBARIAN ((BAR) OR (ETH (THROWING))) !(am5 OR ama OR amf)]: %DOT-97%%NAME%
+ItemDisplay[DIFF<3 CLVL<85 (MAPID>0 MAPID<133) MAG !ID BARBARIAN THROWING !(am5 OR ama OR amf)]: %DOT-97%%NAME%
 // Magic/Rare Paladin
-ItemDisplay[DIFF<3 CLVL<85 (MAPID>0 MAPID<133) MAG !ID PALADIN (DIN OR SCEPTER)]: %DOT-97%%NAME%
 ItemDisplay[FILTLVL~1-4 RARE !ID PALADIN (DIN OR SCEPTER)]: %DOT-6D%%NAME%
 ItemDisplay[FILTLVL~1-4 MAG !ID PALADIN ((DIN) OR (ETH (SCEPTER)))]: %DOT-97%%NAME%
+ItemDisplay[DIFF<3 CLVL<85 (MAPID>0 MAPID<133) MAG !ID PALADIN (DIN OR SCEPTER)]: %DOT-97%%NAME%
 // Magic/Rare Necromancer
-ItemDisplay[RARE !ID NECROMANCER (WAND OR NEC)]: %DOT-20%%MAP-21%%BORDER-6D%%SAGE%•%WHITE%•  %NAME%  %WHITE%•%SAGE%•
+ItemDisplay[ILVL>84 RARE !ID NECROMANCER (WAND OR NEC)]: %DOT-20%%MAP-21%%BORDER-6D%%SAGE%•%WHITE%•  %NAME%  %WHITE%•%SAGE%•
 ItemDisplay[MAG !ID NECROMANCER NEC]: %PX-60%%DOT-21%%MAP-97%%NAME% %ORANGE%•
-ItemDisplay[DIFF<3 CLVL<85 (MAPID>0 MAPID<133) MAG !ID NECROMANCER (NEC OR WAND)]: %DOT-97%%NAME%
+ItemDisplay[FILTLVL~1-8 RARE !ID NECROMANCER (WAND OR NEC)]: %DOT-20%%MAP-21%%BORDER-6D%%SAGE%·%WHITE%·  %NAME%  %WHITE%·%SAGE%·
 ItemDisplay[FILTLVL~1-4 MAG !ID NECROMANCER ((NEC) OR (ETH (WAND)))]: %DOT-97%%NAME%
 ItemDisplay[FILTLVL~1-4 RARE !ID NECROMANCER (NEC OR WAND)]: %DOT-6D%%NAME%
+ItemDisplay[DIFF<3 CLVL<85 (MAPID>0 MAPID<133) MAG !ID NECROMANCER (NEC OR WAND)]: %DOT-97%%NAME%
 // Magic/Rare Assassin
-ItemDisplay[RARE !ID ETH ASSASSIN SIN]: %DOT-62%%MAP-21%%BORDER-6D%%RED%•%ORANGE%•  %NAME%  %ORANGE%•%RED%•
-ItemDisplay[RARE !ID !ETH ASSASSIN SIN]: %PX-62%%DOT-21%%MAP-6D%%RED%• %NAME% %RED%•
+ItemDisplay[ILVL>84 RARE !ID ETH ASSASSIN SIN]: %DOT-62%%MAP-21%%BORDER-6D%%RED%•%ORANGE%•  %NAME%  %ORANGE%•%RED%•
+ItemDisplay[ILVL>84 RARE !ID !ETH ASSASSIN SIN]: %PX-62%%DOT-21%%MAP-6D%%RED%• %NAME% %RED%•
 ItemDisplay[MAG !ID ETH ASSASSIN (axf OR 9xf OR 7xf)]: %PX-60%%DOT-21%%MAP-97%%ORANGE%• %NAME% %ORANGE%•
-ItemDisplay[DIFF<3 CLVL<85 (MAPID>0 MAPID<133) MAG !ID ASSASSIN SIN]: %DOT-97%%NAME%
+ItemDisplay[FILTLVL~1-8 RARE !ID ETH ASSASSIN SIN]: %DOT-62%%MAP-21%%BORDER-6D%%RED%·%ORANGE%·  %NAME%  %ORANGE%·%RED%·
+ItemDisplay[FILTLVL~1-8 RARE !ID !ETH ASSASSIN SIN]: %PX-62%%DOT-21%%MAP-6D%%RED%· %NAME% %RED%·
 ItemDisplay[FILTLVL~1-4 RARE !ID ASSASSIN SIN]: %DOT-6D%%NAME%
 ItemDisplay[FILTLVL~1-4 MAG !ID ASSASSIN ETH SIN]: %DOT-97%%NAME%
+ItemDisplay[DIFF<3 CLVL<85 (MAPID>0 MAPID<133) MAG !ID ASSASSIN SIN]: %DOT-97%%NAME%
 // Magic/Rare Sorceress
 ItemDisplay[RARE !ID SORCERESS (ob5 OR oba OR obf)]: %PX-62%%DOT-21%%MAP-6D%%NAME% %ORANGE%•
 ItemDisplay[MAG !ID SORCERESS (ob5 OR oba OR obf)]: %PX-60%%DOT-21%%MAP-97%%NAME% %ORANGE%•
 ItemDisplay[FILTLVL~1-4 RARE !ID SORCERESS (ob5 OR oba OR obf OR wst OR 8ws OR 6ws)]: %DOT-6D%%NAME%
 ItemDisplay[FILTLVL~1-4 MAG !ID SORCERESS (ob5 OR oba OR obf OR wst OR 8ws OR 6ws)]: %DOT-97%%NAME%
 // Magic/Rare Amazon
-ItemDisplay[RARE !ID AMAZON (hxb OR 8hx OR 6hx OR mxb OR 8mx OR 6mx OR am1 OR am6 OR amb OR am2 OR am7 OR amc)]: %DOT-62%%MAP-21%%BORDER-6D%%RED%•%ORANGE%•  %NAME%  %ORANGE%•%RED%•
-ItemDisplay[RARE !ID AMAZON QUIVER]: %PX-62%%DOT-21%%MAP-6D%%RED%• %NAME% %RED%•
+ItemDisplay[ILVL>84 RARE !ID AMAZON (hxb OR 8hx OR 6hx OR mxb OR 8mx OR 6mx OR am1 OR am6 OR amb OR am2 OR am7 OR amc)]: %DOT-62%%MAP-21%%BORDER-6D%%RED%•%ORANGE%•  %NAME%  %ORANGE%•%RED%•
+ItemDisplay[ILVL>84 RARE !ID AMAZON QUIVER]: %PX-62%%DOT-21%%MAP-6D%%RED%• %NAME% %RED%•
 ItemDisplay[MAG !ID AMAZON (am1 OR am6 OR amb OR am2 OR am7 OR amc)]: %PX-60%%DOT-21%%MAP-97%%NAME% %ORANGE%•
+ItemDisplay[FILTLVL~1-8 RARE !ID AMAZON (hxb OR 8hx OR 6hx OR mxb OR 8mx OR 6mx OR am1 OR am6 OR amb OR am2 OR am7 OR amc)]: %DOT-62%%MAP-21%%BORDER-6D%%RED%·%ORANGE%·  %NAME%  %ORANGE%·%RED%·
+ItemDisplay[FILTLVL~1-8 RARE !ID AMAZON QUIVER]: %PX-62%%DOT-21%%MAP-6D%%RED%· %NAME% %RED%·
 ItemDisplay[FILTLVL~1-4 RARE !ID AMAZON (ZON OR QUIVER)]: %DOT-6D%%NAME%
 ItemDisplay[FILTLVL~1-4 MAG !ID AMAZON (ZON OR QUIVER)]: %DOT-97%%NAME%
 
 // Magic/Rare Quivers
-ItemDisplay[RARE !ETH !ID QUIVER]: %RED%· %NAME% %RED%·
+ItemDisplay[ILVL>84 RARE !ETH !ID QUIVER]: %RED%· %NAME% %RED%·
+ItemDisplay[FILTLVL~1-8 RARE !ETH !ID QUIVER]: %NAME% %RED%·
 ItemDisplay[FILTLVL~1-4 MAG !ETH !ID QUIVER]: %NAME%
 // Magic/Rare Armors
-ItemDisplay[RARE ETH !ID CHEST]: %DOT-20%%MAP-21%%BORDER-6D%%SAGE%•%WHITE%•  %NAME%  %WHITE%•%SAGE%•
-ItemDisplay[RARE !ID NEC]: %DOT-20%%MAP-21%%BORDER-6D%%SAGE%•%WHITE%•  %NAME%  %WHITE%•%SAGE%•
-ItemDisplay[RARE !ID DRU]: %PX-20%%DOT-21%%MAP-6D%%SAGE%·%WHITE%·  %NAME%  %WHITE%·%SAGE%·
-ItemDisplay[RARE !ID (GLOVES OR BOOTS)]: %DOT-6D%%SAGE%· %NAME% %SAGE%·
-ItemDisplay[FILTLVL~1-8 RARE !ETH !ID CHEST]: %NAME% %ORANGE%·
+ItemDisplay[ILVL>84 RARE ETH !ID CHEST]: %DOT-20%%MAP-21%%BORDER-6D%%SAGE%•%WHITE%•  %NAME%  %WHITE%•%SAGE%•
+ItemDisplay[ILVL>84 RARE !ID NEC]: %DOT-20%%MAP-21%%BORDER-6D%%SAGE%•%WHITE%•  %NAME%  %WHITE%•%SAGE%•
+ItemDisplay[ILVL>84 RARE !ETH !ID CHEST]: %SAGE%• %NAME% %SAGE%•
+ItemDisplay[ILVL>84 RARE !ID (DRU OR GLOVES OR BOOTS)]: %DOT-6D%%SAGE%· %NAME% %SAGE%·
+ItemDisplay[FILTLVL~1-8 RARE ETH !ID CHEST]: %DOT-20%%MAP-21%%BORDER-6D%%SAGE%·%WHITE%·  %NAME%  %WHITE%·%SAGE%·
+ItemDisplay[FILTLVL~1-8 RARE !ID NEC]: %DOT-20%%MAP-21%%BORDER-6D%%SAGE%·%WHITE%·  %NAME%  %WHITE%·%SAGE%·
+ItemDisplay[FILTLVL~1-8 RARE !ETH !ID CHEST]: %SAGE%· %NAME% %SAGE%·
+ItemDisplay[FILTLVL~1-8 RARE !ID (DRU OR GLOVES OR BOOTS)]: %DOT-6D%%NAME% %SAGE%·
 ItemDisplay[FILTLVL~1-8 MAG !ID NEC]: %NAME% %ORANGE%·
 ItemDisplay[FILTLVL~1-8 CRAFTALVL>84 MAG !ETH !ID ELT CHEST]: %NAME% %ORANGE%·
 ItemDisplay[FILTLVL~1-8 RARE !ID !(DIN OR NEC) (SHIELD OR BELT)]: %NAME%
@@ -2256,11 +2270,15 @@ Alias[GOOD_WEAPON_ITEMS_2]: (am1 OR am6 OR amb OR am2 OR am7 OR amc)
 Alias[OKAY_WEAPON_ITEMS]: (dir OR 9di OR 7di OR tax OR 9ta OR 7ta OR 7ax OR 72a OR 7wa OR 7la OR 7ba OR 7bt OR 7ga OR 7gi OR 7wh OR 7m7 OR 7gm OR 7cr OR 7bs OR 7ls OR 72h OR 7cm OR 7gs OR 7b7 OR 7fb OR 7gd)
 
 // Magic/Rare Weapons
-ItemDisplay[RARE ETH !ID GG_CLASS_ITEMS_1 !(tkf OR 9tk OR 7tk OR am5 OR ama OR amf)]: %PX-62%%DOT-21%%MAP-6D%%RED%•%ORANGE%•  %NAME%  %ORANGE%•%RED%•
-ItemDisplay[RARE !ETH !ID GG_CLASS_ITEMS_2 !(tkf OR 9tk OR 7tk OR am5 OR ama OR amf)]: %PX-62%%DOT-21%%MAP-6D%%RED%• %NAME% %RED%•
+ItemDisplay[ILVL>84 RARE ETH !ID GG_CLASS_ITEMS_1 !(tkf OR 9tk OR 7tk OR am5 OR ama OR amf)]: %PX-62%%DOT-21%%MAP-6D%%RED%•%ORANGE%•  %NAME%  %ORANGE%•%RED%•
+ItemDisplay[ILVL>84 RARE !ETH !ID GG_CLASS_ITEMS_2 !(tkf OR 9tk OR 7tk OR am5 OR ama OR amf)]: %PX-62%%DOT-21%%MAP-6D%%RED%• %NAME% %RED%•
 ItemDisplay[MAG ETH !ID GG_CLASS_ITEMS_2 !(tkf OR 9tk OR 7tk OR am5 OR ama OR amf)]: %ORANGE%• %NAME% %ORANGE%•
-ItemDisplay[RARE !ID WAND]: %PX-20%%DOT-21%%MAP-6D%%SAGE%•%WHITE%•  %NAME%  %WHITE%•%SAGE%•
-ItemDisplay[RARE ETH !ID GOOD_WEAPON_ITEMS_1 !(tkf OR 9tk OR 7tk OR am5 OR ama OR amf)]: %PX-62%%DOT-6D%%RED%·%ORANGE%·  %NAME%  %ORANGE%·%RED%·
+ItemDisplay[ILVL>84 RARE !ID WAND]: %PX-20%%DOT-21%%MAP-6D%%SAGE%•%WHITE%•  %NAME%  %WHITE%•%SAGE%•
+ItemDisplay[ILVL>84 RARE ETH !ID GOOD_WEAPON_ITEMS_1 !(tkf OR 9tk OR 7tk OR am5 OR ama OR amf)]: %PX-62%%DOT-6D%%RED%·%ORANGE%·  %NAME%  %ORANGE%·%RED%·
+ItemDisplay[FILTLVL~1-8 RARE ETH !ID GG_CLASS_ITEMS_1 !(tkf OR 9tk OR 7tk OR am5 OR ama OR amf)]: %PX-62%%DOT-21%%MAP-6D%%RED%·%ORANGE%·  %NAME%  %ORANGE%·%RED%·
+ItemDisplay[FILTLVL~1-8 RARE !ETH !ID GG_CLASS_ITEMS_2 !(tkf OR 9tk OR 7tk OR am5 OR ama OR amf)]: %PX-62%%DOT-21%%MAP-6D%%RED%· %NAME% %RED%·
+ItemDisplay[FILTLVL~1-8 RARE !ID WAND]: %PX-20%%DOT-21%%MAP-6D%%SAGE%·%WHITE%·  %NAME%  %WHITE%·%SAGE%·
+ItemDisplay[FILTLVL~1-8 RARE ETH !ID GOOD_WEAPON_ITEMS_1 !(tkf OR 9tk OR 7tk OR am5 OR ama OR amf)]: %PX-62%%DOT-6D%%RED%·  %NAME%  %RED%·
 ItemDisplay[FILTLVL~1-8 RARE !ETH !ID GOOD_WEAPON_ITEMS_1 !(tkf OR 9tk OR 7tk OR am5 OR ama OR amf)]: %RED%· %NAME% %RED%·
 ItemDisplay[FILTLVL~1-8 MAG ETH !ID GOOD_WEAPON_ITEMS_1 !(tkf OR 9tk OR 7tk OR am5 OR ama OR amf)]: %ORANGE%· %NAME% %ORANGE%·
 ItemDisplay[FILTLVL~1-8 MAG !ETH !ID GOOD_WEAPON_ITEMS_2]: %NAME% %ORANGE%·
