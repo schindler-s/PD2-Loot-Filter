@@ -12,7 +12,7 @@ ItemDisplayFilterName[11]: ÿc1Extreme ÿc4Strictness ÿc7w/ ÿc;Juice ÿc7& ÿc.Flawl
 ItemDisplayFilterName[12]: ÿc1Extreme ÿc4Strictness ÿc7w/ ÿc;Juice
 
 //------------------------------FILTER_VERSION_ON_CUBE------------------------------
-ItemDisplay[box]: %MAP-51%Horadric Cube %RED%(Jan/12th/26){%LIGHT_GRAY%removed magic exc chests and quivers from extra - kassahi%CL%added new luxe filter - Mark%CL%%GREEN%Kassahi - HiimMark%CL%%WHITE%Season 12 Build # 176}
+ItemDisplay[box]: %MAP-51%Horadric Cube %RED%(Jan/16th/26){%LIGHT_GRAY%removed magic exc chests and quivers from extra - kassahi%CL%added new luxe filter - Mark%CL%%GREEN%Kassahi - HiimMark%CL%%WHITE%Season 12 Build # 181}
 
 
 
@@ -790,6 +790,46 @@ ItemDisplay[(crfb OR crfc OR crfs OR crfh OR crfv OR crfu OR crfp) QTY>1]: %NAME
 
 
 
+//------------------------------MEME Names------------------------------
+
+
+
+
+
+// UNID
+ItemDisplay[UNI !ID jew]: %YELLOW%K%ORANGE%a%RED%p%CORAL%p%PURPLE%a%BLUE%P%TEAL%r%DARK_GREEN%i%GREEN%d%SAGE%e%CONTINUE%
+ItemDisplay[UNI !ID rin]: My... Precious!!!%CONTINUE%
+ItemDisplay[UNI !ID amu]: Medallion%CONTINUE%
+ItemDisplay[UNI !ID ung]: Foreskin%CONTINUE%
+ItemDisplay[UNI !ID xar]: Deadgemourn%CONTINUE%
+ItemDisplay[UNI !ID uar]: Copium's Might%CONTINUE%
+ItemDisplay[UNI !ID urg]: Twilight's Hyperion ''Spear''%CONTINUE%
+ItemDisplay[UNI !ID tgl]: Magefisted%CONTINUE%
+ItemDisplay[UNI !ID drc]: Stepmother%CONTINUE%
+ItemDisplay[UNI !ID bac]: Furry%CONTINUE%
+ItemDisplay[UNI !ID 7kr]: Fleshlight%CONTINUE%
+ItemDisplay[UNI !ID 8ws]: Dust Collector%CONTINUE%
+ItemDisplay[UNI !ID 8mx]: Bussy Spitter%CONTINUE%
+ItemDisplay[UNI !ID aqv3]: Aetherbasillisk's Finger%CONTINUE%
+ItemDisplay[UNI !ID cqv3]: Abyssalbannerlord's Sorrow%CONTINUE%
+
+// PD2 Items
+ItemDisplay[std]: Standard of Po-Tay-Toes%CONTINUE%
+ItemDisplay[dcso]: Better Call Prime Evil Saul%CONTINUE%
+ItemDisplay[dcbl]: Pure Daemoth Dust%CONTINUE%
+ItemDisplay[cm2f]: Bonfire Lit%CONTINUE%
+ItemDisplay[lbox]: Lunch Box%CONTINUE%
+ItemDisplay[lpp]: Bermuda Piece%CONTINUE%
+ItemDisplay[scrb]: Lunch Meat%CONTINUE%
+ItemDisplay[rtp]: Gateway%CONTINUE%
+ItemDisplay[rid]: Cain's Book%CONTINUE%
+ItemDisplay[rkey]: Rathma's Bone%CONTINUE%
+ItemDisplay[imrn]: Demonic Fabio%CONTINUE%
+
+
+
+
+
 //------------------------------SPECIFIC_NAME_INFORMATIONS------------------------------
 
 
@@ -1367,7 +1407,7 @@ ItemDisplay[(GEM=4 OR GEM=5)]: %NAME%
 
 
 
-//------------------------------Rune-Name------------------------------
+//------------------------------Rune-Name-MEME------------------------------
 
 
 
@@ -1375,11 +1415,11 @@ ItemDisplay[(GEM=4 OR GEM=5)]: %NAME%
 
 ItemDisplay[RUNE=26]: Vex%CONTINUE%
 ItemDisplay[RUNE=27]: Ohm%CONTINUE%
-ItemDisplay[RUNE=28]: Lo%CONTINUE%
-ItemDisplay[RUNE=29]: Sur%CONTINUE%
-ItemDisplay[RUNE=30]: Ber%CONTINUE%
+ItemDisplay[RUNE=28]: LoL%CONTINUE%
+ItemDisplay[RUNE=29]: SuS%CONTINUE%
+ItemDisplay[RUNE=30]: Beer%CONTINUE%
 ItemDisplay[RUNE=31]: Jah%CONTINUE%
-ItemDisplay[RUNE=32]: Cham%CONTINUE%
+ItemDisplay[RUNE=32]: Scam%CONTINUE%
 ItemDisplay[RUNE=33]: Zod%CONTINUE%
 
 ItemDisplay[RUNE>0 RUNE<26]: %RUNENAME% %GREEN%%RUNENUM%%CONTINUE%
@@ -8546,7 +8586,7 @@ ItemDisplay[leg]: %NAME%{%NAME%}
 ItemDisplay[NMAG DIFF=0 !SHOP !RW (CLUB OR DAGGER OR WAND OR SOR OR sst OR 8ss OR 6ss OR scp OR 9sc OR 7sc OR gsc OR 9qs OR 7qs OR SIN OR am5 OR ama OR amf) !THROWING PRICE>4999 CLVL<15]: %ORANGE%• %WHITE%${%NAME%}
 ItemDisplay[NMAG DIFF=0 !SHOP !RW (CLUB OR DAGGER OR WAND OR SOR OR sst OR 8ss OR 6ss OR scp OR 9sc OR 7sc OR gsc OR 9qs OR 7qs OR SIN OR am5 OR ama OR amf) !THROWING PRICE>14999]: %ORANGE%• %WHITE%${%NAME%}
 ItemDisplay[NMAG DIFF=1 !SHOP !RW (CLUB OR DAGGER OR WAND OR SOR OR sst OR 8ss OR 6ss OR scp OR 9sc OR 7sc OR gsc OR 9qs OR 7qs OR SIN OR am5 OR ama OR amf) !THROWING PRICE>24999]: %ORANGE%• %WHITE%${%NAME%}
-ItemDisplay[NMAG DIFF=2 !SHOP !RW (dgr OR 9dg OR 7dg OR dir OR 9di OR 7di OR WAND OR ob1 OR ob6 OR obb OR ob2 OR ob7 OR obc OR ob3 OR ob8 OR obd OR ob4 OR ob9 OR obe) PRICE>34999]: %ORANGE%• %WHITE%${%NAME%}
+ItemDisplay[NMAG DIFF=2 !SHOP !RW (dgr OR 9dg OR 7dg OR dir OR 9di OR 7di OR WAND OR ob1 OR ob6 OR obb OR ob2 OR ob7 OR obc OR ob3 OR ob8 OR obd OR ob4 OR ob9 OR obe) PRICE>34999]: %WHITE%• %ORANGE%$$$ %WHITE%•{%NAME%}
 
 
 
