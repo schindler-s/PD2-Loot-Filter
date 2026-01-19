@@ -316,7 +316,7 @@ ItemDisplay[ILVL>89 RARE !ID amu]: %DOT-20%%MAP-21%%BORDER-6D%%SOUNDID-4716%%SAG
 ItemDisplay[RARE !ID (amu OR rin)]: %PX-20%%DOT-21%%MAP-6D%%SAGE%•%YELLOW%•%WHITE%•   %NAME%   %WHITE%•%YELLOW%•%SAGE%•
 ItemDisplay[CLVL<19 MAG !ID (amu OR rin)]: %DOT-97%%NAME%
 ItemDisplay[DIFF<3 CLVL<85 (MAPID>0 MAPID<133) MAG !ID rin]: %NAME%
-ItemDisplay[FILTLVL~1-8 ILVL>59 MAG !ID amu]: %WHITE%· %NAME% %WHITE%·
+ItemDisplay[ILVL>59 MAG !ID amu]: %WHITE%· %NAME% %WHITE%·
 // Magic/Rare Circlets
 ItemDisplay[RARE !ID CIRC]: %DOT-20%%MAP-21%%BORDER-6D%%SOUNDID-4716%%SAGE%••%YELLOW%••%WHITE%•   %NAME%   %WHITE%•%YELLOW%••%SAGE%••
 ItemDisplay[MAG !ID (ci2 OR ci3)]: %PX-20%%DOT-97%%BLUE%·%WHITE%·  %NAME%  %WHITE%·%BLUE%·
