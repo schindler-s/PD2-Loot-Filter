@@ -1,2 +1,4 @@
 .idea/
 builder/config.bat
+builder/01-version.filter
+builder/01-version-aliases.filter
