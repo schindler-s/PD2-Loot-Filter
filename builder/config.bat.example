@@ -1,0 +1,4 @@
+@echo off
+REM Local configuration file - not committed to git
+REM Set the target directory for generated filter files
+set "TARGET_DIR=C:\path\to\filters\local"

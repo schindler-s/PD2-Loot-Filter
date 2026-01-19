@@ -1,11 +1,13 @@
 @echo off
 setlocal
 
+call config.bat
+
 REM === Folder containing files to convert ===
-set "srcfolder=%cd%"
+set "srcfolder=%TARGET_DIR%"
 
 REM === Process all text files (change *.filter to *.* if needed) ===
-for %%F in ("%srcfolder%\..\generated\*.filter") do (
+for %%F in ("%srcfolder%\*.filter") do (
     echo Converting "%%~nxF" to Windows-1252...
 
     powershell -Command ^
